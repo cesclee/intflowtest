@@ -1,3 +1,4 @@
+#mysqldb python으로 연동가능여부확인
 import pymysql
 
 conn=pymysql.connect
