@@ -1,3 +1,4 @@
+/*스키마의 모든 테이블 명세서내역 */
 SELECT ORDINAL_POSITION 'count_number', 
 table_name'tablename',
 COLUMN_NAME 'fieldname',
