@@ -1,0 +1,16 @@
+# 1분마다 실시간 센서 값을 삽입하는 함수
+# if(현재시간 - 시작시간 > 60초) -> 출력
+# 출력 값==센서 값
+import datetime as time
+currenttime=time.datetime.now()
+timelap=time.timedelta(seconds=60)
+print(currenttime)
+
+timelap=currenttime-timelap
+
+print(timelap)
+
+
+#arguement에 데이터베이스 호출 값 지정삽입
+
+   
